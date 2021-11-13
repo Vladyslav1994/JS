@@ -48,6 +48,6 @@
 // document.write(test)
 
 // перемога!
-let test = 2;
-let qwe = test === 1 ? 'Вірно' : 'Неправильно';
+let test = 'tre';
+let qwe = test === 'true' ? 'Вірно' : 'Неправильно';
 console.log(qwe);
