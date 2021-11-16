@@ -262,3 +262,60 @@
 //     document.write(`</div>`);
 // }
 
+// let something = [1, 2, 3, 'eqw', '123', 'feasewf', false, true, 1, 'q'];
+// for (let p of something) {
+//     document.write(`<div>`)
+//     document.write(p);
+//     document.write(`</div>`);
+// }
+
+// let something = [1, 2, 3, 'eqw', '123', 'feasewf', false, true, 1, 'q'];
+// for (i = 0; i < something.length; i++) {
+//     if (typeof something[i] === 'boolean') {
+//         console.log(something[i])
+//     }
+// }
+// let something = [1, 2, 3, 'eqw', '123', 'feasewf', false, true, 1, 'q'];
+// for (i = 0; i < something.length; i++) {
+//     if (typeof something[i] === "string") {
+//         console.log(something[i]);
+//     }
+// }
+// let something = [1, 2, 3, 'eqw', '123', 'feasewf', false, true, 1, 'q'];
+// for (i = 0; i < something.length; i++) {
+//     if (typeof something[i] === "number") {
+//         console.log(something[i])
+//     }
+// }
+
+// - Створити порожній масив. Наповнити його 10 елементами (різними за типами) через звернення до конкретних індексів. Вивести в консоль всі його елементи в циклі.
+// - Створити цикл for на 10  ітерацій з кроком 1. Вивести поточний номер кроку через console.log та document.write
+// - Створити цикл for на 100 ітерацій з кроком 1. Вивести поточний номер кроку через console.log та document.write
+// - Створити цикл for на  100 ітерацій з кроком 2. Вивести поточний номер кроку через console.log та document.write
+// - Створити цикл for на 100 ітерацій. Вивести тільки парні кроки. через console.log + document.write
+// - Створити цикл for на 100 ітерацій. Вивести тільки непарні кроки. через console.log + document.write
+
+// let num = [1, 2, 3, 4, 5, 'q', 'w', 'e', true, false,1];
+// for (i = 0; i <= num.length; i++) {
+//     console.log(`<div>${num[i]}</div>`);
+// }
+// for (let a = 1; a <= 10; a++) {
+//     console.log(`<div>hello${a}</div>`);
+//     document.write(`<div>hello${a}</div>`);
+// }
+// for (let a = 1; a <= 100; a++) {
+//     console.log(`<div>name${a}</div>`);
+//     document.write(`<div>name${a}</div>`);
+// }
+// for (let a = 2; a <= 100; a+=2) {
+//     console.log(`<div>name${a}</div>`);
+//     document.write(`<div>name${a}</div>`);
+// }
+// for (let a = 2; a <= 100; a+=2) {
+//     console.log(`<div>name${a}</div>`);
+//     document.write(`<div>name${a}</div>`);
+// }
+// for (let a = 1; a <= 100; a+=2) {
+//     console.log(`<div>name${a}</div>`);
+//     document.write(`<div>name${a}</div>`);
+// }
