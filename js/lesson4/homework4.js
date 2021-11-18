@@ -37,29 +37,35 @@
 // document.write(areaCylinder(3, 6))
 
 // - створити функцію яка створює параграф з текстом. Текст задати через аргумент
-// function argum() {
-//     console.log(arguments);
+// function argum(qwe) {
+//     console.log(qwe);
 // }
 //
-// argum('hello');
+// argum('hello','dasdas');
 // argum('oktem');
 // argum('dz w poryadku?');
 
-
+// function qwe(num){
+//     document.write(`<div>`)
+//
+//     for (let i=0; i<num; i++){
+//         document.write(`<p>hi${i}</p>`);
+//     }
+//     document.write(`</div>`);
+// }
+// qwe(10);
 
 // - створити функцію яка створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий.
 // Кількість li визначається другим аргументом, який є числовим (тут використовувати цикл)
-// function one(num) {
-//     document.write(`<ul>`);
-//     for (let i = 0; i < num; i++) {
-//         document.write(`<li>hello${i}</li>`);
-//         document.write(`<li>okten${i}</li>`);
-//         document.write(`<li>dz${i}</li>`);
-//     }
-//     document.write(`</ul>`);
-// }
-//
-// one(3);
+function one(text, num) {
+    document.write(`<ul>`);
+    for (let i = 0; i < (num || 3); i++) {
+        document.write(`<li>${text}</li>`);
+    }
+    document.write(`</ul>`);
+}
+
+one("hello");
 
 
 // - створити функцію яка приймає масив примітивних елементів (числа,стрінги,булеві), та будує для них список
