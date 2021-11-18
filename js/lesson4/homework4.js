@@ -29,12 +29,12 @@
 
 
 // - створити функцію яка обчислює та повертає площу циліндру висотою h, та радіутом r
-// function areaCylinder(r, h) {
+// function cylindr(r, h) {
 //     let xxx = 2 * 3.14 * r * h;
 //     return xxx;
 // }
-// console.log(areaCylinder(3,6))
-// document.write('Площа циліндра: ' + areaCylinder(3, 6))
+// console.log(cylindr(3,6))
+// document.write(areaCylinder(3, 6))
 
 // - створити функцію яка створює параграф з текстом. Текст задати через аргумент
 // function argum() {
