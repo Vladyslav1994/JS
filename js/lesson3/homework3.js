@@ -172,3 +172,29 @@
 //     console.log(`<div>name${a}</div>`);
 //     document.write(`<div>name${a}</div>`);
 // }
+
+
+// let qwe = prompt('');
+// if (qwe >= 18) {
+//     document.write('price your ticket 500');
+// } else if (qwe >= 14 && qwe < 18) {
+//     document.write('price your ticket 300');
+// } else if (qwe < 14) {
+//     document.write('price your ticket 100');
+// }
+// let key = '';
+// switch (key) {
+//     case 'glass':
+//         console.log('zakapay oczi');
+//         break;
+//     case 'noga':
+//         console.log('widpoczyn');
+//         break;
+//     default:
+//         console.log('fasfas');
+// }
+
+// let exser = ['vasia', 'julia', 'anton', 'max', 'vlad', 'ania'];
+// for (let exer of exser) {
+//     console.log(exer);
+// }
