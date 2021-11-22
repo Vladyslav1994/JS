@@ -16,81 +16,84 @@
 // let result = kolo(3, 5);
 // console.log(result);
 
-
 // - створити функцію яка приймає масив та виводить кожен його елемент
-// let mas=[1,2,3,4,5]
-// function funct(ar1,ar2,ar3,ar4,ar5) {
-//     for (const masi of mas) {
-//         document.write(masi);
+// let mainarray = [1, 2, 3, 4,'main'];
+//
+// function array(arr) {
+//     for (const numb of arr) {
+//         console.log(numb);
 //     }
 // }
 //
-// funct();
-
-
-// - створити функцію яка обчислює та повертає площу циліндру висотою h, та радіутом r
-// function cylindr(r, h) {
-//     let xxx = 2 * 3.14 * r * h;
-//     return xxx;
-// }
-// console.log(cylindr(3,6))
-// document.write(areaCylinder(3, 6))
+// array(mainarray);
 
 // - створити функцію яка створює параграф з текстом. Текст задати через аргумент
-// function argum(qwe) {
-//     console.log(qwe);
+// function fun(a) {
+//     document.write(`<p>${a}</p>`)
 // }
 //
-// argum('hello','dasdas');
-// argum('oktem');
-// argum('dz w poryadku?');
-
-// function qwe(num){
-//     document.write(`<div>`)
-//
-//     for (let i=0; i<num; i++){
-//         document.write(`<p>hi${i}</p>`);
-//     }
-//     document.write(`</div>`);
-// }
-// qwe(10);
-
-// - створити функцію яка створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий.
-// Кількість li визначається другим аргументом, який є числовим (тут використовувати цикл)
-function one(text, num) {
-    document.write(`<ul>`);
-    for (let i = 0; i < (num || 3); i++) {
-        document.write(`<li>${text}</li>`);
-    }
-    document.write(`</ul>`);
-}
-
-one("hello");
+// fun('hello');
+// fun('hello');
+// fun('hello');
 
 
-// - створити функцію яка приймає масив примітивних елементів (числа,стрінги,булеві), та будує для них список
+// - створити функцію яка створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий
 
-// let mas = [1231, 'hello', true];
-//
-// function qwe(fun) {
-//     document.write(`<ul>`);
-//     for (let i = 0; i < mas.length; i++) {
-//         document.write(`<li>${fun[i]}</li>`)
+// function funct(num) {
+//     document.write(`<ul>`)
+//     for (let i = 0; i < num; i++) {
+//         document.write(`<li>hello${i}</li>`)
 //     }
 //     document.write(`</ul>`)
 // }
 //
-// qwe(mas);
+// funct(3);
+
+//     function argumen(a) {
+//     document.write(`<ul>`);
+//     document.write(`<li>${a}</li>`)
+//     document.write(`<li>${a}</li>`)
+//     document.write(`<li>${a}</li>`)
+//     document.write(`</ul>`);
+//
+// }
+//
+// argumen('hello')
+
+
+// - створити функцію яка створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий. Кількість li визначається другим аргументом,
+//     який є числовим (тут використовувати цикл)
+
+// function text(size, a) {
+//
+//     document.write(`<ul>`)
+//     for (let i = 0; i < size; i++) {
+//         document.write(`<li>${a}</li>`)
+//
+//     }
+//     document.write(`</ul>`)
+// }
+// text(5, 'hello')
+
+// - створити функцію яка приймає масив примітивних елементів (числа,стрінги,булеві), та будує для них список
+
+// function other(array) {
+//     document.write(`<ul>`)
+//     for (const arr of array) {
+//         document.write(`<li>${arr}</li>`)
+//     }
+//     document.write(`</ul>`)
+// }
+// other([true,false,123,'dasw'])
 
 
 
 // - створити функцію яка приймає масив об'єктів з наступними полями id,name,age , та виводить їх в документ. Для кожного об'єкту окремий блок.
-
-// let one = [{id: 1, name: 'Vlad', age: 27}, {id: 2, name: 'Ania', age: 22}]
-//
-// function hit(togather) {
-//     for (const xxx of togather) {
-//         document.write(`<div>${xxx["id"]} ${xxx['name']} ${xxx["age"]}</div>`)
+// let docum = [{id: 1, name: 'vlad', age: 27}];
+// function mainarray(num) {
+//     for (let number of num) {
+//         document.write(`<div>${number.id} ${number.name} ${number.age}</div>`);
 //     }
 // }
-// hit(one)
+//
+// mainarray(docum);
