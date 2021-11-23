@@ -78,7 +78,7 @@
 //
 // let user = (other) => {
 //     for (let num of other) {
-//         document.write(`<div>${num.id} ${num.name} ${num.age}</div>`)
+//         document.write(`<div>${num.id} ${num.name} ${num.age}</div>`);
 //     }
 // };
-// user(docum)
+// user(docum);
