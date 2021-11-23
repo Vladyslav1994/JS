@@ -33,6 +33,15 @@
 
 // - створити функцію яка  створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий
 
+let func = (text) => {
+    document.write(`<ul>`)
+    document.write(`<li>${text}</li>`)
+    document.write(`<li>${text}</li>`)
+    document.write(`<li>${text}</li>`)
+    document.write(`</ul>`)
+};
+func('hello');
+
 // function foorbar(fn) {
 //     fn();
 // }
