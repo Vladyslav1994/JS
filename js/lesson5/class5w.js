@@ -88,8 +88,4 @@
 // let xxx = (a, b) => a + b
 //
 // console.log(xxx(10, 2));
-let func = (text) => {
-    document.write(`<p>${text}</p>`)
 
-};
-func('hello');
