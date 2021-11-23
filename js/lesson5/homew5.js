@@ -42,18 +42,6 @@
 // };
 // func('hello');
 
-// function foorbar(fn) {
-//     fn();
-// }
-//
-// foorbar(() =>{
-//     document.write(`<ul>`);
-//     document.write(`<li>hello</li>`);
-//     document.write(`<li>hello</li>`);
-//     document.write(`<li>hello</li>`);
-//     document.write(`</ul>`);
-// })
-
 
 // - створити функцію яка  створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий.
 // Кількість li визначається другим аргументом, який є числовим (тут використовувати цикл)
