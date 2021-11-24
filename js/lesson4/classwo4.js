@@ -78,18 +78,18 @@
 
 
 // - створити функцію яка приймає будь-яку кількість чисел, повертає найменьше, а виводить найбільше (Math використовувати заборонено);
-// let masive = [5, 23, 2];
-//
-// function xxx(array) {
-//     let min = array[0]
-//     for (let i = 0 ; i < array.length; i++) {
-//         if ([array][i]){
-//             console.log(masive)
-//         }
-//
-//     }
-//     return min
-// }
+let masive = [5, 23, 2];
+
+function xxx(array) {
+    let min = array[0]
+    for (let i = 0 ; i < array.length; i++) {
+        if ([array][i]){
+            console.log(masive)
+        }
+
+    }
+    return min
+}
 //
 // let qqq = xxx(masive);
 // console.log(qqq);

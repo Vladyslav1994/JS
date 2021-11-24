@@ -85,7 +85,67 @@
 // console.log(qqq);
 
 // - створити функцію яка приймає будь-яку кількість чисел, повертає найменьше, а виводить найбільше (Math використовувати заборонено);
-let xxx = [22,13,15,66,623,3];
-let numbers = (small) => {
 
-};
+// let number = (...xxx) => {
+//     let min = xxx[0];
+//     let max = xxx[0];
+//     for (let num of xxx) {
+//         if (min > num) {
+//             min = num;
+//         } else if (max < num) {
+//             max = num;
+//         }
+//     }
+//     console.log("Min: ", min)
+//     console.log("Max: ", max)
+// };
+//
+// number(11,22,33,44)
+
+// - створити функцію яка заповнює масив рандомними числами
+// (цей код генерує рандомні числа в діапазоні від 0 до 100 - Math.round(Math.random()*100)) та виводить його.
+
+// let number = () => {
+//     let array = [];
+//     for (let i = 0; i < 100; i++) {
+//         let a = Math.random()
+//         array.push(a)
+//     }
+//     console.log(array);
+// };
+// number()
+
+
+// - створити функцію яка заповнює масив рандомними числами в діапазоні від 0 до limit. limit - аргумент,
+// який характеризує кінцеве значення діапазону.
+
+// let arrey = (num, limit) => {
+//     let number = [];
+//     for (let i = 0; i < num; i++) {
+//         number.push(Math.round(Math.random()*limit))
+//     }
+//     return number
+// };
+// document.write(arrey(3, 10000));
+
+
+// - Функція приймає масив та робить з нього новий масив в зворотньому порядку. [1,2,3] -> [3, 2, 1].
+
+// let array = [1, 2, 3];
+// let number = (qqq) => {
+//         console.log(qqq.reverse());
+// };
+// number(array)
+
+
+// let array = [1, 2, 3];
+//
+// let number = (qqq) => {
+//     let sss = [];
+//     for (let i = 0; i < qqq.length; i++) {
+//         sss.unshift(qqq[i])
+//     }
+//     return sss
+// };
+//
+// console.log(number(array));
