@@ -63,7 +63,7 @@
 
 // - Напишіть функцію delete_characters(str, length), яка повертає підрядок, що складається із зазначеної кількості символів.
  //   let str = 'Каждый охотник желает знать';
- //    document.writeln(delete_characters(str, 7)); // Каждый
+ //    document.writeln(delete_characters(str, 7));
 
 // let delete_characters = (str, index) => {
 //     return str.substr(0, index);
