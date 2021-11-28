@@ -20,13 +20,13 @@ function car(model, manufacturer, year_of_manufacture, maximum_speed, engine) {
         }
     };
     this.newMaxSpeed = function (newSpeed) {
-        this.maxspeed = this.maxspeed + newSpeed;
+        this.maxspeed = this.maximum_speed + newSpeed;
     };
     this.oldYear = function (newYear) {
         this.year_of_manufacture = newYear;
     };
     this.addDriver = function (driver) {
-        this.driver = driver;
+        this.drives = driver;
     };
 }
 
@@ -34,7 +34,7 @@ let addCar = new car('audi', 'Germany', 2013, 260, 2);
 console.log(addCar);
 addCar.drives(100);
 addCar.info('audi');
-addCar.newMaxSpeed(280);
+addCar.newMaxSpeed(10);
 addCar.oldYear(2014);
 addCar.addDriver('vlad');
 console.log(addCar)
