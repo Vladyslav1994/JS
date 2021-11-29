@@ -113,19 +113,15 @@ let pop = [
 ];
 console.log(pop)
 
-
-
-
 let prince = [{name: 'Johnny', age: 26, shoes: 35}];
 console.log(prince)
 
 
 let couple = (pop, prince) => {
     for (let she of pop) {
-        if (pop.size === prince.shoes) {
+        if (she.size === prince.shoes) {
             return `${she.name}`
         }
     }
 };
-
 console.log(couple(pop,prince));
