@@ -130,7 +130,7 @@ let couple = (pop, prince) => {
 };
 console.log(couple(pop,pric))
 
-let prrinc = pop.find((she) => she.size === prince.shoes);
+let prrinc = pop.find((she) => she.size === pric.shoes);
 console.log(prrinc);
 
 
