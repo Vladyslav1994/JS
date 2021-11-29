@@ -92,10 +92,10 @@
 
 
 
-function popelushka(popelushka_name, popelushka_age, size_shoes) {
+function popelushka(popelushka_name, popelushka_age, size) {
     this.name = popelushka_name;
     this.age = popelushka_age;
-    this.size = size_shoes;
+    this.size = size;
 
 }
 
@@ -113,9 +113,13 @@ let pop = [
 ];
 console.log(pop)
 
-let prince = [{name: 'Johnny', age: 26, shoes: 35}];
-console.log(prince)
+function Princ(name, age, shoes) {
+    this.name = name;
+    this.age = age;
+    this.shoes = shoes;
+}
 
+let pric = new Princ('Johnny', 26, 36);
 
 let couple = (pop, prince) => {
     for (let she of pop) {
@@ -124,4 +128,7 @@ let couple = (pop, prince) => {
         }
     }
 };
-console.log(couple(pop,prince));
+console.log(couple(pop,pric))
+
+let prrinc = pop.find((she) => she.size === prince.shoes);
+console.log(prrinc);
