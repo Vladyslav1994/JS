@@ -92,7 +92,7 @@
 
 
 
-function popelushka(popelushka_name, popelushka_age, size) {
+function Popelushka(popelushka_name, popelushka_age, size) {
     this.name = popelushka_name;
     this.age = popelushka_age;
     this.size = size;
@@ -100,16 +100,16 @@ function popelushka(popelushka_name, popelushka_age, size) {
 }
 
 let pop = [
-    new popelushka('Ania', 18, 37),
-    new popelushka('Vika', 19, 36),
-    new popelushka('Maria', 17, 35),
-    new popelushka('Lili', 21, 38),
-    new popelushka('Marina', 24, 39),
-    new popelushka('Olya', 23, 37),
-    new popelushka('Oliwia', 19, 37),
-    new popelushka('Karina', 19, 37.5),
-    new popelushka('Katya', 22, 39),
-    new popelushka('Alina', 24, 38),
+    new Popelushka('Ania', 18, 37),
+    new Popelushka('Vika', 19, 36),
+    new Popelushka('Maria', 17, 35),
+    new Popelushka('Lili', 21, 38),
+    new Popelushka('Marina', 24, 39),
+    new Popelushka('Olya', 23, 37),
+    new Popelushka('Oliwia', 19, 37),
+    new Popelushka('Karina', 19, 37.5),
+    new Popelushka('Katya', 22, 39),
+    new Popelushka('Alina', 24, 38),
 ];
 console.log(pop)
 
@@ -132,3 +132,5 @@ console.log(couple(pop,pric))
 
 let prrinc = pop.find((she) => she.size === prince.shoes);
 console.log(prrinc);
+
+
