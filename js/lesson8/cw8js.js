@@ -38,10 +38,11 @@ ul[0].style.width = '400px';
 
 
 // h) отримує всі елементи 'a' та додає їм клас element_XXX. Де XXX - текстовий контент елементу a
-// for (let changeText of anch) {
-//     changeText.classList.add('element_XXX');
-//
-// }
+let anch = document.getElementsByTagName('a');
+for (let changeText of anch) {
+    changeText.classList.add('element_' + changeText.innerText);
+
+}
 
 // i) отримує всі елементи 'sub-header' та змінює колір фону. Фон отримати з prompt()
 // let sub_head = document.getElementsByClassName('sub-header');
