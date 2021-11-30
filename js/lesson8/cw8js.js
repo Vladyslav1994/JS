@@ -2,14 +2,14 @@
 // 1) Напишіть код, який :
 
 // a) змінює колір тексту елемнту з ід main_header на назву групи в якій ви вчитесь (mon-year)
-let textID = document.getElementById('main_header');
-console.log(textID);
-textID.classList.add('main_header1');
+// let textID = document.getElementById('main_header');
+// console.log(textID);
+// textID.classList.add('main_header1');
 
 // b) робить шириниу елементу ul 400px
-let ul = document.getElementsByTagName('ul');
-console.log(ul);
-ul[0].style.width = '400px';
+// let ul = document.getElementsByTagName('ul');
+// console.log(ul);
+// ul[0].style.width = '400px';
 
 // c) робить шириниу всіх елементів з класом linkList шириною 50%
 // let width = document.getElementsByClassName('linkList');
@@ -38,11 +38,11 @@ ul[0].style.width = '400px';
 
 
 // h) отримує всі елементи 'a' та додає їм клас element_XXX. Де XXX - текстовий контент елементу a
-let anch = document.getElementsByTagName('a');
-for (let changeText of anch) {
-    changeText.classList.add('element_' + changeText.innerText);
-
-}
+// let anch = document.getElementsByTagName('a');
+// for (let changeText of anch) {
+//     changeText.classList.add('element_' + changeText.innerText);
+//
+// }
 
 // i) отримує всі елементи 'sub-header' та змінює колір фону. Фон отримати з prompt()
 // let sub_head = document.getElementsByClassName('sub-header');
