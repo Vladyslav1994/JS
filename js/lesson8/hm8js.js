@@ -13,7 +13,7 @@
 
 
 // отримує текст з параграфа з id "content"
-let id = document.getElementsByTagName('p')
+let id = document.getElementById('id')
 console.log(id);
 
 // -- отримує текст з блоку з id "rules"
