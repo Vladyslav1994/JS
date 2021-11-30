@@ -12,18 +12,20 @@ console.log(ul);
 ul[0].style.width = '400px';
 
 // c) робить шириниу всіх елементів з класом linkList шириною 50%
-
+// let width = document.getElementsByClassName('linkList');
+// console.log(width);
+// width[0].style.width = '50%';
 
 // d) отримує текст який зберігається в елементі з класом listElement2
-let findListElement2 = document.getElementsByClassName('listElement2');
-console.log(findListElement2)
+// let findListElement2 = document.getElementsByClassName('listElement2');
+// console.log(findListElement2)
 
 // e) отримує всі елементи li та змінює ім колір фону на сірий
-ul[0].style.background = 'grey';
+// ul[0].style.background = 'grey';
 
 // f) отримує всі елементи 'a' та додає їм клас anchor
-let anch = document.getElementsByTagName('a');
-console.log(anch);
+// let anch = document.getElementsByTagName('a');
+// console.log(anch);
 // for (let addList of anch) {
 //     addList.classList.add('anchor')
 // }
@@ -42,23 +44,24 @@ console.log(anch);
 // }
 
 // i) отримує всі елементи 'sub-header' та змінює колір фону. Фон отримати з prompt()
-let sub_head = document.getElementsByClassName('sub-header');
-console.log(sub_head);
-if (sub_head[0].style.background = prompt('')) {
-    console.log(sub_head);
-}
-if (sub_head[1].style.background = prompt('')) {
-    console.log(sub_head);
-}
+// let sub_head = document.getElementsByClassName('sub-header');
+//
+// for (const item of sub_head) {
+//     item.style.background = prompt('')
+// }
 
 // k) отримує елемент з класом content_1 та заміняє  в ньому тест на довільний. Текст отримати з prompt()
-
+// let content_1_change = document.getElementsByClassName('content_1');
+// console.log(content_1_change);
+// for (const change of content_1_change) {
+//     change.innerText = prompt('');
+// }
 
 // l) отримати елементи p та змінити їм padding на 20px
 // let Padd = document.getElementsByTagName('p');
-// console.log(Padd);
-// Padd[0].style.padding = '20px';
-// Padd[1].style.padding = '20px';
+// for (const padd_20px of Padd) {
+//     padd_20px.style.padding = '20px';
+// }
 
 
 // m) отримати елементи з класом text2 та змінити їм текст на назву групи (mon-year. Пример sep-2021)
