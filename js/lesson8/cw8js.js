@@ -1,7 +1,5 @@
 // Взяти файл template_2.html та працювати в ньому
 // 1) Напишіть код, який :
-// l) отримати елементи p та змінити їм padding на 20px
-// m) отримати елементи з класом text2 та змінити їм текст на назву групи (mon-year. Пример sep-2021)
 
 // a) змінює колір тексту елемнту з ід main_header на назву групи в якій ви вчитесь (mon-year)
 let textID = document.getElementById('main_header');
@@ -57,6 +55,13 @@ if (sub_head[1].style.background = prompt('')) {
 
 
 // l) отримати елементи p та змінити їм padding на 20px
-let Padd = document.getElementsByTagName('p');
-console.log(Padd);
-Padd[0].style.padding = '20px';Padd[1].style.padding = '20px';
+// let Padd = document.getElementsByTagName('p');
+// console.log(Padd);
+// Padd[0].style.padding = '20px';
+// Padd[1].style.padding = '20px';
+
+
+// m) отримати елементи з класом text2 та змінити їм текст на назву групи (mon-year. Пример sep-2021)
+// let change_text2 = document.getElementsByClassName('text2')
+// console.log(change_text2);
+// change_text2[0].innerText = 'sep-2021';
