@@ -92,45 +92,65 @@
 
 
 
-function Popelushka(popelushka_name, popelushka_age, size) {
-    this.name = popelushka_name;
-    this.age = popelushka_age;
-    this.size = size;
+// function Popelushka(popelushka_name, popelushka_age, size) {
+//     this.name = popelushka_name;
+//     this.age = popelushka_age;
+//     this.size = size;
+//
+// }
+//
+// let pop = [
+//     new Popelushka('Ania', 18, 37),
+//     new Popelushka('Vika', 19, 36),
+//     new Popelushka('Maria', 17, 35),
+//     new Popelushka('Lili', 21, 38),
+//     new Popelushka('Marina', 24, 39),
+//     new Popelushka('Olya', 23, 37),
+//     new Popelushka('Oliwia', 19, 37),
+//     new Popelushka('Karina', 19, 37.5),
+//     new Popelushka('Katya', 22, 39),
+//     new Popelushka('Alina', 24, 38),
+// ];
+// console.log(pop)
+//
+// function Princ(name, age, shoes) {
+//     this.name = name;
+//     this.age = age;
+//     this.shoes = shoes;
+// }
+//
+// let pric = new Princ('Johnny', 26, 36);
+//
+// let couple = (pop, prince) => {
+//     for (let she of pop) {
+//         if (she.size === prince.shoes) {
+//             return `${she.name}`
+//         }
+//     }
+// };
+// console.log(couple(pop,pric))
+//
+// let prrinc = pop.find((she) => she.size === pric.shoes);
+// console.log(prrinc);
 
-}
+// function User(id, name, wifename, wifesurname) {
+//     this.id = id;
+//     this.name = name;
+//     this.wife = {name: wifename, surname: wifesurname};
+// }
+//
+// console.log(new User(1, 'bilokin', 'ania', 'bilokin'))
 
-let pop = [
-    new Popelushka('Ania', 18, 37),
-    new Popelushka('Vika', 19, 36),
-    new Popelushka('Maria', 17, 35),
-    new Popelushka('Lili', 21, 38),
-    new Popelushka('Marina', 24, 39),
-    new Popelushka('Olya', 23, 37),
-    new Popelushka('Oliwia', 19, 37),
-    new Popelushka('Karina', 19, 37.5),
-    new Popelushka('Katya', 22, 39),
-    new Popelushka('Alina', 24, 38),
-];
-console.log(pop)
+let xxx = [3, 5, 2, 44, 33, 12, 97, 15];
 
-function Princ(name, age, shoes) {
-    this.name = name;
-    this.age = age;
-    this.shoes = shoes;
-}
-
-let pric = new Princ('Johnny', 26, 36);
-
-let couple = (pop, prince) => {
-    for (let she of pop) {
-        if (she.size === prince.shoes) {
-            return `${she.name}`
+function findMin (arr){
+    let min = arr[0];
+    for (let array of arr)
+        if (array < min) {
+            min = array;
         }
-    }
-};
-console.log(couple(pop,pric))
+    return min
+}
 
-let prrinc = pop.find((she) => she.size === pric.shoes);
-console.log(prrinc);
-
-
+let sss = findMin(xxx);
+console.log(sss)
