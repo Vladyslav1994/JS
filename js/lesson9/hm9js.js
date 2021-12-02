@@ -85,15 +85,23 @@ let coursesAndDurationArray = [
     {title: 'Frontend', monthDuration: 4}
 ];
 for (let courses of coursesAndDurationArray) {
+    // створення елементів
     let coursesdiv = document.createElement('div');
-    coursesdiv.classList.add('item');
     let h1 = document.createElement('h1');
-    coursesdiv.appendChild(h1);
-    h1.classList.add('heading');
-    h1.innerText = `${courses.title}`;
     let p = document.createElement('p');
-    coursesdiv.appendChild(p);
+
+    //додавання класу
+    coursesdiv.classList.add('item');
+    h1.classList.add('heading');
     p.classList.add('description');
+
+    //додання елементів в наш головний дів
+    coursesdiv.appendChild(h1);
+    coursesdiv.appendChild(p);
+
+
+    //виведення їх на екран
+    h1.innerText = `${courses.title}`;
     p.innerText = `${courses.monthDuration}`;
 
 
