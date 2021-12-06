@@ -1,0 +1,22 @@
+.main {
+    width: 1000px;
+    height: 500px;
+    background: purple;
+}
+
+.long_courses {
+    display: flex;
+}
+
+.long_courses > h4 {
+    text-align: center;
+    width: 100%;
+    border: solid 2px blue;
+    margin: 7px;
+}
+.learn_li{
+    width: 900px;
+    height: 20px;
+    background: cornflowerblue;
+    margin-top: 5px;
+}
