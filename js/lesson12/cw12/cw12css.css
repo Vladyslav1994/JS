@@ -1,0 +1,9 @@
+.btn1 {
+    width: 100px;
+    height: 20px;
+    background: cornflowerblue;
+}
+body {
+    display: flex;
+    column-gap: 20px;
+}
