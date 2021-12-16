@@ -83,16 +83,16 @@
 //         }
 //     },2600);
 // }
-//
-//
+
+
 // day_8am(true, () => {
-//     day_9am(myDayStart);
-//     day_10am(myDayStart);
-//     day_11am(myDayStart);
-//     day_12am(myDayStart);
-//     day_13pm(myDayStart);
-//     day_14pm(myDayStart);
-//     day_15pm(myDayStart);
+//     day_9am(myDayStart,() =>{})
+//     day_10am(myDayStart,() =>{})
+//     day_11am(myDayStart,() =>{})
+//     day_12am(myDayStart,() =>{})
+//     day_13pm(myDayStart,() =>{})
+//     day_14pm(myDayStart,() =>{})
+//     day_15pm(myDayStart,() =>{})
 // });
 
 
