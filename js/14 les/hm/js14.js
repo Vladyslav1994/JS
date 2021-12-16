@@ -87,24 +87,11 @@
 //
 // day_8am(true, () => {
 //     day_9am(myDayStart);
-// });
-// day_8am(true, () => {
 //     day_10am(myDayStart);
-// });
-//
-// day_8am(true, () => {
 //     day_11am(myDayStart);
-// });
-// day_8am(true, () => {
-//     day_12am(!myDayStart);
-// });
-// day_8am(true, () => {
+//     day_12am(myDayStart);
 //     day_13pm(myDayStart);
-// });
-// day_8am(true, () => {
 //     day_14pm(myDayStart);
-// });
-// day_8am(true, () => {
 //     day_15pm(myDayStart);
 // });
 
