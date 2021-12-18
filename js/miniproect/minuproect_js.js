@@ -6,16 +6,21 @@
 fetch('https://jsonplaceholder.typicode.com/users')
     .then((response) => response.json())
     .then((json) => {
-        for (const xxx of json) {
+        for (const elements of json) {
             let wrap = document.createElement('div');
             let div_name = document.createElement('div');
             let div_id = document.createElement('div');
+            let btn = document.createElement('button');
 
-            div_name.innerText = `${xxx.name}`;
-            div_id.innerText = `${xxx.id}`;
+            div_name.innerText = `${elements.name}`;
+            div_id.innerText = `${elements.id}`;
+            btn.innerText = 'click';
 
+            wrap.classList.add('wrap_main');
+            btn.classList.add('btn1');
 
             document.body.append(wrap);
-            wrap.append(div_name, div_id);
+            wrap.append(div_name, div_id,btn);
         }
     });
+

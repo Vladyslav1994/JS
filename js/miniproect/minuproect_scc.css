@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+.wrap_main {
+    display: flex;
+    width: 150px;
+    height: 300px;
+    border: 2px solid black;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.btn1 {
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    background: rebeccapurple;
+    color: gold;
+}
