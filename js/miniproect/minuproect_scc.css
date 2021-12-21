@@ -20,6 +20,11 @@ body {
     background: rebeccapurple;
     color: gold;
 }
+.btn2 {
+    display: flex;
+    margin: 10px 40px;
+}
+
 .user_div1 {
     display: flex;
     width: 200px;
