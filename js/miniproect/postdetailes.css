@@ -1,0 +1,13 @@
+body {
+    display: flex;
+    width: 1150px;
+    flex-wrap: wrap;
+}
+.xxx {
+    width: 215px;
+    height: 215px;
+    background: #01fd20;
+    margin: 7px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gold;
+}

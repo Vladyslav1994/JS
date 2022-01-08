@@ -3,17 +3,12 @@
 // 2 Вывести id,name всех user в index.html. Отдельный блок для каждого user.
 // 3 Добавить каждому блоку кнопку/ссылку , при клике на которую происходит переход на страницу user-details.html, которая имеет детальную информацию про объект на который кликнули
 
-// На странице user-details.html:
-// 4 Вывести всю, без исключения, информацию про объект user на кнопку/ссылку которого был совершен клик ранее.
-// 5 Добавить кнопку "post of current user", при клике на которую, появляются title всех постов текущего юзера
-// (для получения постов используйте эндпоинт https://jsonplaceholder.typicode.com/users/USER_ID/posts)
-//     6 Каждому посту добавить кнопку/ссылку, при клике на которую происходит переход на страницу post-details.html, которая имеет детальную информацию про текущий пост.
-
 
 fetch('https://jsonplaceholder.typicode.com/users')
     .then((response) => response.json())
     .then((json) => {
         for (const elements of json) {
+            let wrap_body = document.createElement('div')
             let wrap = document.createElement('div');
             let div_name = document.createElement('div');
             let div_id = document.createElement('div');
@@ -25,22 +20,19 @@ fetch('https://jsonplaceholder.typicode.com/users')
             btn.innerText = 'click';
 
             wrap.classList.add('wrap_main');
+            wrap_body.classList.add('wrap_body')
             btn.classList.add('btn');
             div_name.classList.add('div_name')
             div_id.classList.add('div_id')
 
 
-            document.body.append(wrap);
-            wrap.append(div_name, div_id, btn,);
+            document.body.append(wrap_body);
+            wrap_body.append(wrap, btn);
+            wrap.append(div_name, div_id);
 
 
             btn.onclick = () => {
-
-                if (btn) {
-                    document.location='user-details.html'
-                } else {
-                    `sadas`
-                }
+               location.href = `user-details.html?user=${elements.id}`
             };
         }
     });
