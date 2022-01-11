@@ -3,6 +3,8 @@
 // 5 Добавить кнопку "post of current user", при клике на которую, появляются title всех постов текущего юзера
 // (для получения постов используйте эндпоинт https://jsonplaceholder.typicode.com/users/USER_ID/posts)
 //     6 Каждому посту добавить кнопку/ссылку, при клике на которую происходит переход на страницу post-details.html, которая имеет детальную информацию про текущий пост.
+
+
 const userId = location.search.split('user=')[1];
 
 fetch(`https://jsonplaceholder.typicode.com/users/${userId}`)
